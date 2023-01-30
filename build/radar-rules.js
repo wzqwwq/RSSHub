@@ -2851,6 +2851,12 @@
         docs:"https://docs.rsshub.app/en/other.html#fisher-spb",
         source:[ "/news" ],
         target:"/fisher-spb/news" } ] },
+  "fjksbm.com":{ _name:"福建考试报名网",
+    ".":[ { title:"分类",
+        docs:"https://docs.rsshub.app/study.html#fu-jian-kao-shi-bao-ming-wang",
+        source:[ "/portal/:category?",
+          "/portal" ],
+        target:"/fjksbm/:category?" } ] },
   "flyert.com":{ _name:"飞客茶馆",
     ".":[ { title:"优惠信息",
         docs:"https://docs.rsshub.app/travel.html#fei-ke-cha-guan-you-hui-xin-xi",
@@ -5562,6 +5568,11 @@
         docs:"https://docs.rsshub.app/traditional-media.html#chao-xian-zhong-yang-tong-xun-she",
         source:"/:lang/category/articles/q/12c03a49f7dbe829bceea8ac77088c21.kcmsf",
         target:"/kcna/:lang/12c03a49f7dbe829bceea8ac77088c21" } ] },
+  "research.ke.com":{ _name:"贝壳研究院 - 房地产行业研究报告",
+    www:[ { title:"研究成果",
+        docs:"https://docs.rsshub.app/other.html#bei-ke-yan-jiu-yuan",
+        source:[ "/researchResults" ],
+        target:"/researchResults" } ] },
   "gotokeep.com":{ _name:"Keep",
     ".":[ { title:"用户运动日记",
         docs:"https://docs.rsshub.app/social-media.html#keep",
@@ -5762,7 +5773,7 @@
         docs:"https://docs.rsshub.app/new-media.html#line-today",
         source:[ "/" ],
         target:"/line/today/:edition?/:tab?" } ] },
-  "linkedin.com":{ _name:"linkedin",
+  "linkedin.com":{ _name:"LinkedIn",
     ".":[ { title:"Job Listing",
         docs:"https://docs.rsshub.app/en/other.html#linkedin-jobs",
         source:"/jobs/search/",
@@ -5775,6 +5786,14 @@
                         return searchParam.split(',').join('-');
                     };
                     return `/linkedin/jobs/${parseRoute(searchParams.get('f_JT'))}/${parseRoute(searchParams.get('f_E'))}/${searchParams.get('keywords') || ''}`;
+                } } ] },
+  "linkedin.cn":{ _name:"LinkedIn 领英中国",
+    ".":[ { title:"Jobs",
+        docs:"https://docs.rsshub.app/other.html#linkedin-ling-ying-zhong-guo",
+        source:"/incareer/jobs/search",
+        target:(params, url) => {
+                    const searchParams = new URL(url).searchParams;
+                    return `/linkedin/cn/jobs/${searchParams.get('keywords') || ''}`;
                 } } ] },
   linkresearcher:{ _name:"领研",
     ".":[ { title:"论文",
