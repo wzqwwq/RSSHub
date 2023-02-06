@@ -569,6 +569,12 @@
     "/bjp/apod": [
         "HenryQW"
     ],
+    "/bjsk/:path?": [
+        "TonyRL"
+    ],
+    "/bjwxdxh/:type?": [
+        "Misaka13514"
+    ],
     "/bjx/gf/:type": [
         "Sxuet"
     ],
@@ -2596,6 +2602,9 @@
     ],
     "/kemono/posts": [
         "nczitzk"
+    ],
+    "/kimlaw/thesis": [
+        "TonyRL"
     ],
     "/knowmedia/:category?": [
         "Fatpandac"
