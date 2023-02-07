@@ -669,6 +669,9 @@
     "/cankaoxiaoxi/news/:category": [
         "yuxinliu-alex"
     ],
+    "/cast/:column?": [
+        "TonyRL"
+    ],
     "/cbirc/:category?": [
         "JkCheung"
     ],
@@ -4555,9 +4558,6 @@
     ],
     "/wechat/uread/:userid": [
         "kt286"
-    ],
-    "/wechat/wemp/:id": [
-        "HenryQW"
     ],
     "/wechat/wxnmh/:id": [
         "laampui"
