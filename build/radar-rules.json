@@ -16124,6 +16124,18 @@
       }
     ]
   },
+  "oeeee.com": {
+    "_name": "奥一网",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#nan-fang-du-shi-bao",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "oilchem.net": {
     "_name": "隆众资讯",
     ".": [
@@ -20032,6 +20044,19 @@
       }
     ]
   },
+  "telecompaper.com": {
+    "_name": "Telecompaper",
+    ".": [
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/journal.html#telecompaper"
+      },
+      {
+        "title": "Search",
+        "docs": "https://docs.rsshub.app/journal.html#telecompaper"
+      }
+    ]
+  },
   "t.me": {
     "_name": "Telegram",
     ".": [
@@ -21555,6 +21580,16 @@
         "docs": "https://docs.rsshub.app/university.html#bei-jing-ke-ji-da-xue",
         "source": "/:type",
         "target": "/ustb/yjsy/news/:type"
+      }
+    ],
+    "tj": [
+      {
+        "title": "天津学院",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-ke-ji-da-xue",
+        "source": [
+          "/*"
+        ],
+        "target": "/ustb/tj/news/all"
       }
     ],
     "yzxc": [
