@@ -728,6 +728,28 @@
       }
     ]
   },
+  "3dmgame.com": {
+    "_name": "3DMGame",
+    ".": [
+      {
+        "title": "新闻中心",
+        "docs": "https://docs.rsshub.app/game.html#_3dmgame",
+        "source": [
+          "/news/:category?",
+          "/news"
+        ],
+        "target": "/3dmgame/news/:category?"
+      },
+      {
+        "title": "游戏资讯",
+        "docs": "https://docs.rsshub.app/game.html#_3dmgame",
+        "source": [
+          "/games/:name/:type"
+        ],
+        "target": "/3dmgame/:name/:type?"
+      }
+    ]
+  },
   "423down.com": {
     "_name": "423down",
     "www": [
@@ -4347,6 +4369,19 @@
           "/notifications"
         ],
         "target": "/github/notifications"
+      }
+    ],
+    "gist": [
+      {
+        "title": "Gist Commits",
+        "docs": "https://docs.rsshub.app/programming.html#github",
+        "source": [
+          "/:owner/:gistId/revisions",
+          "/:owner/:gistId/stargazers",
+          "/:owner/:gistId/forks",
+          "/:owner/:gistId"
+        ],
+        "target": "/github/gist/:gistId"
       }
     ]
   },
