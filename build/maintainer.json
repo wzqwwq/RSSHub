@@ -2616,6 +2616,9 @@
     "/hyqss/hywb/:id?": [
         "nczitzk"
     ],
+    "/i-cable/:category?": [
+        "tpnonthealps"
+    ],
     "/ibc/maitta": [
         "fengkx"
     ],
@@ -3873,6 +3876,9 @@
         "StevenRCE0",
         "nczitzk"
     ],
+    "/openai/research": [
+        "yuguorui"
+    ],
     "/openwrt/releases/:model?": [
         "DIYgod"
     ],
@@ -4601,6 +4607,24 @@
     "/simpleinfo/:category?": [
         "haukeng"
     ],
+    "/sina/csj": [
+        "xapool"
+    ],
+    "/sina/discovery/:type": [
+        "LogicJake"
+    ],
+    "/sina/finance/china/:lid?": [
+        "yubinbai"
+    ],
+    "/sina/finance/stock/usstock/:cids?": [
+        "TonyRL"
+    ],
+    "/sina/rollnews/:lid?": [
+        "xyqfer"
+    ],
+    "/sina/sports/:type?": [
+        "nczitzk"
+    ],
     "/sinchew/category/:category?": [
         "nczitzk"
     ],
@@ -4750,6 +4774,12 @@
     "/startuplatte/:category?": [
         "nczitzk"
     ],
+    "/stbu/jsjxy": [
+        "HyperCherry"
+    ],
+    "/stbu/xyxw": [
+        "HyperCherry"
+    ],
     "/stcn/:id?": [
         "nczitzk"
     ],
@@ -4761,6 +4791,12 @@
     ],
     "/storm/:category?/:id?": [
         "nczitzk"
+    ],
+    "/storyfm/episodes": [
+        "nczitzk"
+    ],
+    "/storyfm/index": [
+        "sanmmm"
     ],
     "/stratechery/": [
         "chazeon"
@@ -6321,11 +6357,6 @@
     "/xiaoheihe/news": [],
     "/xiaoheihe/discount/:platform?": [],
     "/fitchratings/site/:type": [],
-    "/sina/discovery/:type": [],
-    "/sina/rollnews": [],
-    "/sina/sports/:type": [],
-    "/sina/csj": [],
-    "/sina/finance": [],
     "/animen/news/:type": [],
     "/d2/daily": [],
     "/ebb": [],
@@ -6518,7 +6549,6 @@
     "/ctfhub/upcoming/:limit?": [],
     "/ctfhub/search/:limit?/:form?/:class?/:title?": [],
     "/liwushuo/index": [],
-    "/storyfm/index": [],
     "/chinadaily/english/:category": [],
     "/leboncoin/ad/:query": [],
     "/dhl/:id": [],
@@ -6981,7 +7011,6 @@
     "/matataki/tags/:tagId/:tagName/posts/:ipfsFlag?": [],
     "/matataki/users/:userId/favorites/:favoriteListId/posts/:ipfsFlag?": [],
     "/zhimap/:categoryUuid?/:recommend?": [],
-    "/icable/:category/:option?": [],
     "/processon/popular/:cate?/:sort?": [],
     "/mathpix/blog": [],
     "/onenotegem/release": [],
