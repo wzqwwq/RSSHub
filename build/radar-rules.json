@@ -903,6 +903,20 @@
       }
     ]
   },
+  "5eplay.com": {
+    "_name": "5EPLAY",
+    "csgo": [
+      {
+        "title": "新闻列表",
+        "docs": "https://docs.rsshub.app/game.html#_5eplay-xin-wen-lie-biao",
+        "source": [
+          "/",
+          "/article"
+        ],
+        "target": "/5eplay/article"
+      }
+    ]
+  },
   "6parkbbs.com": {
     "_name": "留园网",
     "club": [
@@ -1541,6 +1555,20 @@
         "source": [
           "/m/brand"
         ]
+      }
+    ]
+  },
+  "aliresearch.com": {
+    "_name": "阿里研究院",
+    ".": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/new-media.html#a-li-yan-jiu-yuan",
+        "source": [
+          "/cn/information",
+          "/"
+        ],
+        "target": "/aliresearch/information"
       }
     ]
   },
@@ -5348,6 +5376,19 @@
       }
     ]
   },
+  "deadline.com": {
+    "_name": "Deadline",
+    ".": [
+      {
+        "title": "Latest Articles",
+        "docs": "https://docs.rsshub.app/en/new-media.html#deadline",
+        "source": [
+          "/"
+        ],
+        "target": "/deadline"
+      }
+    ]
+  },
   "dedao.cn": {
     "_name": "得到",
     ".": [
@@ -6097,6 +6138,29 @@
           "/archives/tag/:tag"
         ],
         "target": "/dx2025/tag/:tag"
+      }
+    ]
+  },
+  "dxy.cn": {
+    "_name": "丁香园",
+    ".": [
+      {
+        "title": "个人帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#ding-xiang-yuan",
+        "source": [
+          "/bbs/newweb/pc/profile/:userId/threads",
+          "/bbs/newweb/pc/profile/:userId"
+        ],
+        "target": "/dxy/bbs/profile/thread/:userId"
+      }
+    ],
+    "3g": [
+      {
+        "title": "专题",
+        "docs": "https://docs.rsshub.app/bbs.html#ding-xiang-yuan",
+        "source": [
+          "/bbs/special"
+        ]
       }
     ]
   },
@@ -7148,6 +7212,20 @@
           "/"
         ],
         "target": "/finviz/news/:category?"
+      }
+    ]
+  },
+  "firecore.com": {
+    "_name": "Infuse",
+    ".": [
+      {
+        "title": "Release Notes",
+        "docs": "https://docs.rsshub.app/program-update.html#infuse",
+        "source": [
+          "/releases",
+          "/"
+        ],
+        "target": "/firecore/:os?"
       }
     ]
   },
@@ -9228,6 +9306,15 @@
         "source": [
           "/cheaps.php"
         ]
+      }
+    ]
+  },
+  "gzmtr.com": {
+    "_name": "广州地铁",
+    "www": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/travel.html#guang-zhou-di-tie"
       }
     ]
   },
@@ -20929,6 +21016,19 @@
       }
     ]
   },
+  "tingtingfm.com": {
+    "_name": "听听 FM",
+    "mobile": [
+      {
+        "title": "节目",
+        "docs": "https://docs.rsshub.app/multimedia.html#ting-ting-fm",
+        "source": [
+          "/v3/program/:programId"
+        ],
+        "target": "/tingtingfm/program/:programId"
+      }
+    ]
+  },
   "tisi.org": {
     "_name": "腾讯研究院",
     ".": [
@@ -22398,9 +22498,9 @@
       }
     ]
   },
-  "feeddd.org": {
+  "hamibot.com": {
     "_name": "微信",
-    ".": [
+    "feed": [
       {
         "title": "公众号（feeddd 来源）",
         "docs": "https://docs.rsshub.app/new-media.html#wei-xin",
@@ -23477,12 +23577,12 @@
     "_name": "読売新聞",
     "www": [
       {
-        "title": "読売新聞",
+        "title": "新聞",
         "docs": "https://docs.rsshub.app/traditional-media.html#du-mai-xin-wen",
         "source": [
-          "/:category"
+          "/:category?"
         ],
-        "target": "/yomiuri/:category"
+        "target": "/yomiuri/:category?"
       }
     ]
   },

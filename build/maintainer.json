@@ -174,6 +174,9 @@
     "/52hrtt/:area?/:type?": [
         "nczitzk"
     ],
+    "/5eplay/article": [
+        "Dlouxgit"
+    ],
     "/6park/:id?": [
         "nczitzk"
     ],
@@ -326,6 +329,9 @@
     ],
     "/ajmide/:id": [
         "Fatpandac"
+    ],
+    "/aliresearch/information/:type?": [
+        "nczitzk"
     ],
     "/aliyun/database_month": [
         "junbaor"
@@ -1320,6 +1326,12 @@
     "/ddosi/category/:category": [
         "XinRoom"
     ],
+    "/deadline": [
+        "TonyRL"
+    ],
+    "/deadline/": [
+        "TonyRL"
+    ],
     "/dedao/figure": [
         "nczitzk"
     ],
@@ -1580,6 +1592,12 @@
     "/dx2025/:type?/:category?": [
         "nczitzk"
     ],
+    "/dxy/bbs/profile/thread/:userId": [
+        "TonyRL"
+    ],
+    "/dxy/bbs/special/:specialId": [
+        "TonyRL"
+    ],
     "/e-hentai/category/:category?/:needTorrents?/:needImages?": [
         "nczitzk"
     ],
@@ -1744,6 +1762,9 @@
     ],
     "/finviz/:category?": [
         "nczitzk"
+    ],
+    "/firecore/:os": [
+        "NathanDai"
     ],
     "/firefox/breaches": [
         "TonyRL"
@@ -2283,6 +2304,9 @@
     ],
     "/guangdiu/:query?": [
         "Fatpandac"
+    ],
+    "/guangzhoumetro/news": [
+        "HankChow"
     ],
     "/guanhai": [
         "TonyRL"
@@ -5115,6 +5139,9 @@
     "/tingshuitz/yangjiang": [
         "ciaranchen"
     ],
+    "/tingtingfm/program/:programId": [
+        "TonyRL"
+    ],
     "/tisi/latest": [
         "Fatpandac"
     ],
@@ -5482,8 +5509,13 @@
     "/weekendhk/": [
         "TonyRL"
     ],
+    "/weibo/group/:gid/:gname?/:routeParams?": [
+        "monologconnor",
+        "Rongronggg9"
+    ],
     "/weibo/keyword/:keyword/:routeParams?": [
-        "DIYgod"
+        "DIYgod",
+        "Rongronggg9"
     ],
     "/weibo/oasis/user/:userid": [
         "kt286"
@@ -5492,11 +5524,12 @@
         "xyqfer"
     ],
     "/weibo/super_index/:id/:type?/:routeParams?": [
-        "zengxs"
+        "zengxs",
+        "Rongronggg9"
     ],
     "/weibo/timeline/:uid/:feature?/:routeParams?": [
         "zytomorrow",
-        "DIYgod ",
+        "DIYgod",
         "Rongronggg9"
     ],
     "/weibo/user/:uid/:routeParams?": [
@@ -5623,8 +5656,9 @@
     "/xiaohongshu/user/:user_id/collect": [
         "lotosbin"
     ],
-    "/xiaohongshu/user/:user_id/notes": [
-        "lotosbin"
+    "/xiaohongshu/user/:user_id/notes/:fulltext?": [
+        "lotosbin",
+        "howerhe"
     ],
     "/xiaomiyoupin/crowdfunding": [
         "bigfei"
@@ -5788,7 +5822,7 @@
     "/yoasobi-music/media": [
         "Kiotlin"
     ],
-    "/yomiuri/yomiuri/:category?": [
+    "/yomiuri/:category?": [
         "Arracc"
     ],
     "/youku/channel/:channelId/:embed?": [
