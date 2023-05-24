@@ -327,6 +327,21 @@
     "/airchina/announcement": [
         "LandonLi"
     ],
+    "/aisixiang/column/:id": [
+        "HenryQW",
+        "nczitzk"
+    ],
+    "/aisixiang/ranking/:id?/:period?": [
+        "HenryQW",
+        "nczitzk"
+    ],
+    "/aisixiang/toplist/:id?/:period?": [
+        "nczitzk"
+    ],
+    "/aisixiang/thinktank/:id/:type?": [
+        "hoilc",
+        "nczitzk"
+    ],
     "/ajmide/:id": [
         "Fatpandac"
     ],
@@ -486,6 +501,9 @@
     ],
     "/baai/hub/:tagId?/:sort?/:range?": [
         "TonyRL"
+    ],
+    "/bad/:path+": [
+        "nczitzk"
     ],
     "/baidu/gushitong/index": [
         "CaoMeiYouRen"
@@ -1140,7 +1158,8 @@
         "Fatpandac"
     ],
     "/cnki/author/:code": [
-        "harveyqiu"
+        "harveyqiu",
+        "Derekmini"
     ],
     "/cntheory/paper/:id?": [
         "nczitzk"
@@ -1157,6 +1176,9 @@
     ],
     "/coindesk/consensus-magazine": [
         "jameshih"
+    ],
+    "/comicat/search/:keyword": [
+        "Cyang39"
     ],
     "/comicskingdom/:name": [
         "stjohnjohnson"
@@ -1372,7 +1394,7 @@
     "/diershoubing/news": [
         "wushijishan"
     ],
-    "/discord/channel/:channelID": [
+    "/discord/channel/:channelId": [
         "TonyRL"
     ],
     "/disinfo/publications": [
@@ -1842,6 +1864,9 @@
     ],
     "/fx-markets/fx-markets/:channel": [
         "mikkkee"
+    ],
+    "/fzmtr/announcements": [
+        "HankChow"
     ],
     "/gameapps/": [
         "TonyRL"
@@ -3739,6 +3764,9 @@
     "/nogizaka46/blog": [
         "Kasper4649"
     ],
+    "/notion/database/:databaseId": [
+        "curly210102"
+    ],
     "/now/news/:category?/:id?": [
         "nczitzk"
     ],
@@ -4967,6 +4995,15 @@
     "/techflowpost/": [
         "nczitzk"
     ],
+    "/techpowerup": [
+        "TonyRL"
+    ],
+    "/techpowerup/": [
+        "TonyRL"
+    ],
+    "/techpowerup/review/:keyword?": [
+        "TonyRL"
+    ],
     "/telecompaper/news/:caty/:year?/:country?/:type?": [
         "nczitzk"
     ],
@@ -5126,6 +5163,9 @@
     ],
     "/tingshuitz/nanjing": [
         "ocleo1"
+    ],
+    "/tingshuitz/shenzhen": [
+        "lilPiper"
     ],
     "/tingshuitz/wuhan": [
         "MoonBegonia"
@@ -6068,6 +6108,9 @@
     "/zyshow/:region?/:id": [
         "nczitzk"
     ],
+    "/zyw/hot/:site?": [
+        "nczitzk"
+    ],
     "/1draw": [],
     "/benedictevans": [],
     "/ziroom/room/:city/:iswhole/:room/:keyword": [],
@@ -6401,9 +6444,6 @@
     "/gaoqing/latest": [],
     "/whalegogo/home": [],
     "/whalegogo/portal/:type_id/:tagid?": [],
-    "/aisixiang/column/:id": [],
-    "/aisixiang/ranking/:type?/:range?": [],
-    "/aisixiang/thinktank/:name/:type?": [],
     "/leetcode/submission/us/:user": [],
     "/leetcode/submission/cn/:user": [],
     "/xiaomieu/releases": [],
