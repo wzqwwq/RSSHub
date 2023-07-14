@@ -6916,6 +6916,18 @@
       { title:"圈子 - 纯文字",
         docs:"https://docs.rsshub.app/social-media.html#ji-ke",
         source:"/topics/:id",
+        target:"/jike/topic/text/:id" } ],
+    web:[ { title:"用户动态",
+        docs:"https://docs.rsshub.app/social-media.html#ji-ke",
+        source:"/u/:uid",
+        target:"/jike/user/:uid" },
+      { title:"圈子",
+        docs:"https://docs.rsshub.app/social-media.html#ji-ke",
+        source:"/topic/:id",
+        target:"/jike/topic/:id" },
+      { title:"圈子 - 纯文字",
+        docs:"https://docs.rsshub.app/social-media.html#ji-ke",
+        source:"/topic/:id",
         target:"/jike/topic/text/:id" } ] },
   "jin10.com":{ _name:"金十数据",
     ".":[ { title:"市场快讯",
@@ -13249,6 +13261,17 @@
         docs:"https://docs.rsshub.app/traditional-media.html#yahoo",
         source:[ "/" ],
         target:"/yahoo/news/:region/:category?" } ] },
+  "yangtzeu.edu.cn":{ _name:"长江大学",
+    ".":[ { title:"动物科学学院",
+        docs:"https://docs.rsshub.app/universities.html#chang-jiang-da-xue-dong-wu-ke-xue-xue-yuan",
+        source:[ "/:category",
+          "/" ],
+        target:(params, url) => {
+                    url = new URL(url);
+                    const path = /\.edu\.cn(.*?)\.htm/.test(url.href) ? url.href.match(/\.edu\.cn(.*?)\.htm/)[1] : '';
+
+                    return `/yangtzeu/dongke${path}`;
+                } } ] },
   "yaohuo.me":{ _name:"妖火",
     ".":[ { title:"首页",
         docs:"https://docs.rsshub.app/new-media.html#yao-huo-shou-ye",
