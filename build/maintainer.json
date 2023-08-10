@@ -4675,6 +4675,12 @@
     "/ruc/hr/:category?": [
         "nczitzk"
     ],
+    "/runtrail": [
+        "TonyRL"
+    ],
+    "/runtrail/": [
+        "TonyRL"
+    ],
     "/rustcc/jobs": [
         "CcccFz"
     ],
@@ -5353,6 +5359,9 @@
     ],
     "/thecover/channel/:id?": [
         "yuxinliu-alex"
+    ],
+    "/thehindu/topic/:topic": [
+        "TonyRL"
     ],
     "/theinitium/author/:type/:language?": [
         "AgFlore"
