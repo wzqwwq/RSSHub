@@ -474,7 +474,16 @@
     "/aqara/community/:id?/:keyword?": [
         "nczitzk"
     ],
-    "/aqara/news": [
+    "/aqara/:region/news": [
+        "nczitzk"
+    ],
+    "/aqara/:region/blog": [
+        "nczitzk"
+    ],
+    "/aqara/:region/category/:id": [
+        "nczitzk"
+    ],
+    "/aqara/:region/tag/:id": [
         "nczitzk"
     ],
     "/arcteryx/new-arrivals/:country/:gender": [
@@ -958,6 +967,9 @@
     ],
     "/cas/cg/:caty?": [
         "nczitzk"
+    ],
+    "/cas/genetics/xshd": [
+        "panyq357"
     ],
     "/cas/ia/yjs": [
         "shengmaosu"
@@ -1940,6 +1952,9 @@
     ],
     "/followin/:categoryId?/:lang?": [
         "TonyRL"
+    ],
+    "/foresightnews": [
+        "nczitzk"
     ],
     "/foresightnews/": [
         "nczitzk"
